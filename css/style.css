@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  background-color: #00986c;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+/* -=============- Header -=================- */
+
+header {
+  padding: 20px;
+  background: -webkit-linear-gradient(#008d62, #008d62, #00986c);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  font-size: 1.3rem;
+  margin-right: 30px;
+}
+
+header nav a:hover {
+  color: #57bd9e;
+}
+
+header .logoa .logo {
+  width: 55%;
+}
+
+/* -=============- Main 1 -=================- */
+
+.main1 {
+  position: relative;
+  top: 150px;
+}
+
+.main1 .texto {
+  width: 35%;
+}
+
+.main1 .p1 {
+  position: relative;
+  top: 10px;
+  font-size: 1.8em;
+  font-weight: 900;
+}
+
+.main1 .p2 {
+  position: relative;
+  top: 10px;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.main1 .comprar {
+  font-size: 1rem;
+  position: relative;
+  top: 20px;
+  padding: 10px;
+  padding-right: 60px;
+  padding-left: 60px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.main1 .comprar:hover {
+  font-size: 1.2rem;
+  border-radius: 10em;
+}
+
+/* -=============- Main 2 -=================- */
+
+.main2 {
+  position: relative;
+  top: 350px;
+  width: 100%;
+  padding: 200px;
+  background: -webkit-linear-gradient(#00986c, #2ca880, #2ca880);
+}
+
+.main2 .planosi {
+  width: 110%;
+  position: relative;
+  left: -50px;
+  top: -100px;
+}
+
+.main2 .comprar1 {
+  font-size: 1em;
+  padding: 10px;
+  position: relative;
+  top: -180px;
+  left: 12px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-right: 60px;
+  padding-left: 60px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.main2 .comprar1:hover {
+  border-radius: 10em;
+}
+
+.main2 .comprar2 {
+  font-size: 1em;
+  padding: 10px;
+  position: relative;
+  top: -180px;
+  left: 190px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-right: 60px;
+  padding-left: 60px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.main2 .comprar2:hover {
+  border-radius: 10em;
+}
+
+.main2 .comprar3 {
+  font-size: 1em;
+  padding: 10px;
+  position: relative;
+  top: -180px;
+  left: 375px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-right: 60px;
+  padding-left: 60px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.main2 .comprar3:hover {
+  border-radius: 10em;
+}
+
+/* -=============- Footer -=================- */
+
+footer {
+  font-size: 1.1rem;
+  position: relative;
+  top: 300px;
+  color: #000;
+}
